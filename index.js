@@ -13,3 +13,11 @@ function increaseRankBy(n){
     lists[i].innerHTML=parseInt(lists[i].innerHTML) + n;
   }
 }
+
+function deepestChild(){
+  var list=document.getElementById("grand-node").querySelectorAll("div");
+  var child;
+  for(let i=0;i<list.length-1;i++){
+    child = list[i].querySelector("div");
+  }
+}
